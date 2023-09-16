@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/samta/static/css/main.7f56addb.css",
+    "main.js": "/samta/static/js/main.94ce4578.js",
+    "static/media/logo.png": "/samta/static/media/logo.3756383b148dd33e6987.png",
+    "index.html": "/samta/index.html",
+    "main.7f56addb.css.map": "/samta/static/css/main.7f56addb.css.map",
+    "main.94ce4578.js.map": "/samta/static/js/main.94ce4578.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f56addb.css",
+    "static/js/main.94ce4578.js"
+  ]
+}
