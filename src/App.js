@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import CountdownTimer from './CountdownTimer'
+import UserInfo from './UserInfo'
+import Logo from './logo.png'
+import './App.css'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+      <div className='mainDiv'>
+      <h1 className='Heading' >Samta <span className='Heading2'>Assignment</span></h1>
+      <img src={Logo} alt="img" />
+      </div>
+    <div style={{display:'flex'}}>
+      <CountdownTimer/>
+      <UserInfo/>
     </div>
-  );
+    </>
+  )
 }
 
-export default App;
+export default App

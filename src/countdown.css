@@ -1,0 +1,66 @@
+/* countdown.css */
+
+.countdown-timer {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    height: 100%;
+  }
+  
+  .countdown-timer h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .countdown-timer label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .countdown-timer input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .countdown-timer button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .countdown-timer button:hover {
+    background-color: #0056b3;
+  }
+  
+  .countdown-timer p {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  /* Animation for Countdown Timer */
+  @keyframes timerFadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .timer-animation {
+    animation: timerFadeIn 0.5s ease-in-out;
+  }
+  
